@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DBIx
 %define	pnam	Class-ResultSet-RecursiveUpdate
 Summary:	DBIx::Class::ResultSet::RecursiveUpdate - like update_or_create - but recursive
